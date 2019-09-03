@@ -4,7 +4,7 @@
 
     <label>
         First Name:
-        <input type="text" formControlName="firstName">
+        <input type="text" formControlName="firstName" required>
     </label>
 
     <label>
@@ -39,3 +39,6 @@
         <button (click)="updateProfile()">Update Profile</button>
     </p>
 </form>
+<p>
+    Form Status: {{ profileForm.status }}
+</p>
