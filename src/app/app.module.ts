@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { AppMaterialModule } from './app-material/app-material.module';
 import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { NestedFormGroupComponent } from './nested-form-group/nested-form-group.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NameEditorComponent,
-    ProfileEditorComponent
+    ProfileEditorComponent,
+    NestedFormGroupComponent
   ],
   imports: [
     BrowserModule,
