@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MatCheckboxChange } from '@angular/material/checkbox';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-material-demo';
+
+  checkboxChange($event: MatCheckboxChange) {
+    console.log($event.checked)
+  }
 }
